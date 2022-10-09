@@ -1,0 +1,88 @@
+h1{
+    color:chartreuse
+}
+h1 {
+    color:aqua
+}
+body {
+    font-family: helvetica, arial, sans-serif; 
+} 
+h1 {
+    color: rgb(255, 0, 140);
+    text-align: center;
+}
+#tablero-izquierdo{
+    width: 25%;
+    position: absolute; 
+    height: 100%;
+    padding: 10px; /*padding el espacio o sangría del texto*/
+    left: 0px;
+    background-color: antiquewhite;
+}
+  #tablero-derecho {
+    width: 25%;
+    position: absolute;
+    height: 100%;
+    padding: 10px;
+    right: 0px;
+    background-color: antiquewhite;
+}
+.contenedor {
+    position: relative;
+    height: 6%;
+}
+  
+  .contenedor2 {
+    position: relative;
+    height: 18%;
+    left: -10px;
+}
+  .reducido {
+    height: 4%;
+}
+  .componente {
+    position: absolute;
+    max-width: 100%;
+    max-height: 150%;
+    z-index: 3;
+}
+  .producto {
+    position: absolute;
+    max-width: 200%;
+    max-height: 200%;
+    z-index: 2;
+}
+/*h1 hasta h6 heather*/
+.layout {
+    height: 80%;
+    width: 45%;
+    border: 3px solid #5a04fa;
+    border-radius: 1rem;
+    position: absolute;
+    opacity: 0.5;
+    z-index: 1;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+}
+  
+  .rotulo {
+    width: 45%;
+    height: 5%;
+    background: #a397d8;
+    position: absolute;
+    opacity: 0.7;
+    z-index: 1;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    border-radius: 1em 1rem 0px 0px;
+    text-align: center;
+    color: #3a241d;
+}
+  
+  .titulo {
+    position: relative;
+    display: inline;
+    top: 0.5rem;
+}
